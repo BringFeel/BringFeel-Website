@@ -203,8 +203,6 @@ input, select, textarea {
 			src: url(https://bringfeel.github.io/assets/css/Over-Break.ttf);
 		  }
 		  
-		  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
-		  
 		  h1 {
 			font-family: Over-Break;
 			text-align: center;
