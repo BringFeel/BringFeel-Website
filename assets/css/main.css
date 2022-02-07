@@ -198,11 +198,23 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
-	h1 {
-		font-size: 2.25rem;
-		line-height: 1.3;
-		letter-spacing: 0.5rem;
-	}
+		@font-face {
+			font-family: Over-Break;
+			src: url(https://bringfeel.github.io/assets/css/Over-Break.ttf);
+		  }
+		  
+		  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+		  
+		  h1 {
+			font-family: Over-Break;
+			text-align: center;
+			position: relative;
+			font-size: 10%;
+			  font-size: 10vw;
+			background: -webkit-linear-gradient(#ff0000, #303eb1);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		  }
 
 	h2 {
 		font-size: 1.5rem;

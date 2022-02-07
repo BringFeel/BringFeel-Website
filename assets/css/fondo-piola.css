@@ -95,7 +95,7 @@ html, body {
 
 @font-face {
   font-family: Over-Break;
-  src: url(Over-Break.ttf);
+  src: url(https://bringfeel.github.io/assets/css/Over-Break.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
