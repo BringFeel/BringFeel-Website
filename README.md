@@ -14,7 +14,8 @@
 [La 100 99.9 Discord Bot](bringfeel.como/links/link-la100)\
 [Lo-Fi Radio Discord Bot](bringfeel.com/links/link-lofi)\
 [Radio Disney 94.3 Discord Bot](bringfeel.com/links/link-rdisney)\
-[Rock & Pop Discord Bot](bringfeel.com/links/link-randp)
+[Rock & Pop Discord Bot](bringfeel.com/links/link-randp)\
+[Mega 98.3](https://bringfeel.com/links/link-mega)
 ## Los Fisuras Community
 
 ![](https://cdn.discordapp.com/attachments/925901646914011196/940122747575619595/Cartel_los_fisuras.png "Banner de Los Fisuras")\
