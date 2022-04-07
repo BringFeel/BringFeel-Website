@@ -1660,3 +1660,21 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+        ::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0f26; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255,0,0);
+  background: linear-gradient(159deg, rgba(255,0,0,1) 0%, rgba(0,81,245,1) 100%); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(121,0,0);
+  background: linear-gradient(159deg, rgba(121,0,0,1) 0%, rgba(0,42,128,1) 100%);
+}
