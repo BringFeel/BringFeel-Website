@@ -91,11 +91,6 @@ input, select, textarea {
 	body {
 		background: linear-gradient(-45deg, #000000, #1b1f22);
 		background-size: 300%;
-		font-family: 'Archivo Black', sans-serif;
-		font-weight: 900;
-		font-size: 10vw;
-		letter-spacing: -5px;
-		text-transform: uppercase;
 		-webkit-background-clip: text;
 		animation: animated_text 10s ease-in-out infinite;
 		-moz-animation: animated_text 10s ease-in-out infinite;
