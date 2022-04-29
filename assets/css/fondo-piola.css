@@ -13,14 +13,6 @@ html, body {
   height: 100%;
 }
 
-.page-bg {
-  background: #1e1e1e;
-  background-blend-mode: screen;
-  background-size: cover;
-  filter: grayscale(100%);
-  z-index: -1;
-}
-
 .particle, .particle:after {
   background: transparent;
 }
@@ -91,22 +83,4 @@ html, body {
   to {
     transform: translateY(-2560px);
   }
-}
-
-@font-face {
-  font-family: Over-Break;
-  src: url(https://bringfeel.com/assets/css/Over-Break.ttf);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
-
-h1 {
-  font-family: Over-Break;
-  text-align: center;
-  position: relative;
-  font-size: 10%;
-    font-size: 10vw;
-  background: -webkit-linear-gradient(#ff0000, #303eb1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
