@@ -1,7 +1,7 @@
 ![](https://github.com/BringFeel/BringFeel-Website/blob/main/logos/bringfeel-readme.png "BringFeel Website Logo")
 
 ## Plantillas y Códigos utilizados
-[html5up Dimension](https://html5up.net/dimension)\
+[html5up Spectral](https://html5up.net/spectral)\
 [CSS PARTICLES](https://codepen.io/alexitaylor/pen/RgxJwg)
 ##
 Realizado con ❤️ por [BringFeel#8805](https://github.com/BringFeel).\
