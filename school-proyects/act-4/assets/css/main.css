@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#titulo {
+    color: #719D28;
+    font-size: 7vw;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+  
+}
+
+header {
+    text-align: center;
+    background-image: url("https://dedindex.bringfeel.com.ar/talleres/aplicaciones/act-4/assets/img/fondo_reci.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+table {
+    border: black 2px solid;
+}
+
+td, th {
+    border: black 2px solid;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    color: darkgrey;
+}
+
+a {
+    color: yellow;
+}
