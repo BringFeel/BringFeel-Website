@@ -1,8 +1,13 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 @font-face {
-	font-family: Over-Break;
-	src: url(https://bringfeel.com.ar/assets/css/Over-Break.ttf);
+	font-family: FSEX302;
+	src: url(https://bringfeel.com.ar/assets/css/FSEX302.ttf);
+  }
+
+@font-face {
+	font-family: W95FA;
+	src: url(https://koofa.bringfeel.com.ar/assets/css/fonts/W95FA.otf);
   }
 
 /*
@@ -100,11 +105,6 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
-		@font-face {
-			font-family: W95FA;
-			src: url(https://koofa.bringfeel.com.ar/assets/css/fonts/W95FA.otf);
-		  }
 
 	body, input, select, textarea {
 		color: #fff;
@@ -3580,7 +3580,7 @@ input, select, textarea {
 			opacity: 1;
 			position: relative;
 			z-index: 1;
-			font-family: Over-Break;
+			font-family: FSEX302;
 			background: -webkit-linear-gradient(#ff0000,#303eb1);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
