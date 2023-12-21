@@ -20,7 +20,19 @@ html, body {
     top: 2560px;
   }
 
-  body.is-preload #banner .particle-1, .particle-2, .particle-3, .particle-4 {
+  body.is-preload #banner .particle-1 {
+    opacity: 0;
+  }
+
+  body.is-preload #banner .particle-2 {
+    opacity: 0;
+  }
+
+  body.is-preload #banner .particle-3 {
+    opacity: 0;
+  }
+
+  body.is-preload #banner .particle-4 {
     opacity: 0;
   }
   
