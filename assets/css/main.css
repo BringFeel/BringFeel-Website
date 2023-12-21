@@ -87,6 +87,11 @@ input, select, textarea {
 		width: device-width;
 	}
 
+	.loader {
+		background-color: black;
+		z-index: 0;
+	}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -3589,6 +3594,14 @@ input, select, textarea {
 		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			-moz-transform: scale(1);
+			-webkit-transform: scale(1);
+			-ms-transform: scale(1);
+			transform: scale(1);
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
 		}
 
 			#banner p a {
@@ -3683,13 +3696,26 @@ input, select, textarea {
 
 		}
 
-	body.is-preload #banner h2 {
+	body.is-preload #banner h2  {
 		-moz-transform: scale(0.45);
 		-webkit-transform: scale(0.45);
 		-ms-transform: scale(0.45);
 		transform: scale(0.45);
 		opacity: 0;
 	}
+
+	body.is-preload #banner p  {
+		-moz-transform: scale(0.45);
+		-webkit-transform: scale(0.45);
+		-ms-transform: scale(0.45);
+		transform: scale(0.45);
+		opacity: 0;
+	}
+
+	body.is-preload nav {
+		opacity: 0;
+	}
+	
 
 		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
 			width: 1;

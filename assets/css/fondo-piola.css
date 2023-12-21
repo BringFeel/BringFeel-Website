@@ -19,6 +19,10 @@ html, body {
     content: "";
     top: 2560px;
   }
+
+  body.is-preload #banner .particle-1, .particle-2, .particle-3, .particle-4 {
+    opacity: 0;
+  }
   
   .particle-1 {
     animation: animParticle 50s linear infinite;
@@ -75,7 +79,7 @@ html, body {
   
   @keyframes animParticle {
     from {
-      transform: translateY(0px);
+      transform: translateY(750px);
     }
     to {
       transform: translateY(-2560px);
