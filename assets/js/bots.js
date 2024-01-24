@@ -13,9 +13,8 @@
   				  fetch(urlCH, requestOptions).then(response => {
 					return response.json();
 				}).then(data => {
-					console.log(data)
 					var servers_chitopanbot = document.getElementById("servers-chitopanbot");
-	        servers_chitopanbot.innerHTML = data.charts[0].data[data.charts[0].data.length - 1];
+	                                servers_chitopanbot.innerHTML = data.charts[0].data[data.charts[0].data.length - 1];
 					
 				})
 			    }
@@ -25,9 +24,8 @@
   				  fetch(urlKF, requestOptions).then(response => {
 					return response.json();
 				}).then(data => {
-					console.log(data)
 					var servers_koofa = document.getElementById("servers-koofa");
-	        servers_koofa.innerHTML = data.charts[0].data[data.charts[0].data.length - 1];
+	                                servers_koofa.innerHTML = data.charts[0].data[data.charts[0].data.length - 1];
 					
 				})
 			    }
