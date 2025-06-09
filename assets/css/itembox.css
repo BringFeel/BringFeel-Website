@@ -1,6 +1,13 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+    gap: 20px; /* Espacio entre items */
+    list-style: none; /* Quitar los puntos de lista */
+    padding: 0; /* Quitar padding de ul */
+}
+
 .itembox {
     background-color: #0dc7ff1f;
-    width: 900px;
     border-radius: 10px;
     padding: 20px; /* Agrega espacio interno alrededor del contenido */
     display: flex;
@@ -147,4 +154,10 @@
     text-align: left;
     font-size: 16px;
     margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 736px) {
+    .features {
+        display: flex;
+    }
 }
