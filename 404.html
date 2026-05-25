@@ -1,48 +1,103 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	Edited by BringFeel
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-	Si mi rey, no me olvide de esto
--->
+<!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>BringFeel Dev.</title>
-	    <link rel="shortcut icon" href="https://bringfeel.com.ar/logos/logo-64-new.png" type="image/x-icon" />
-	    <meta charset="utf-8" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://bringfeel.com.ar/assets/css/main.css" />
-		<link rel="stylesheet" href="https://bringfeel.com.ar/assets/css/fondo-piola.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-	<body class="landing is-preload">
-
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Banner -->
-					<section id="banner">
-							<div class="particle particle-1"></div>
-							<div class="particle particle-2"></div>
-							<div class="particle particle-3"></div>
-							<div class="particle particle-4"></div>
-						<div class="inner">
-							<h2>ERROR 404</h2>
-							<p>Archivo no encontrado</p>
-						</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="https://bringfeel.com.ar/assets/js/jquery.min.js"></script>
-			<script src="https://bringfeel.com.ar/assets/js/jquery.scrollex.min.js"></script>
-			<script src="https://bringfeel.com.ar/assets/js/jquery.scrolly.min.js"></script>
-			<script src="https://bringfeel.com.ar/assets/js/browser.min.js"></script>
-			<script src="https://bringfeel.com.ar/assets/js/breakpoints.min.js"></script>
-			<script src="https://bringfeel.com.ar/assets/js/util.js"></script>
-			<script src="https://bringfeel.com.ar/assets/js/main.js"></script>
-
-	</body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BringFeel Dev. — Error 404</title>
+<link rel="shortcut icon" href="https://bringfeel.com.ar/logos/logo-64-new.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Share+Tech+Mono&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg-deep: #0a0a08; --amber: #d4841a; --text-primary: #e8e4d8;
+    --text-secondary: #8a8678; --text-muted: #4a4840; --border: #2e2e28;
+  }
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.5;
+  }
+  .code {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: var(--amber);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+  .code::before {
+    content: '';
+    display: inline-block;
+    width: 24px; height: 1px;
+    background: var(--amber);
+    vertical-align: middle;
+    margin-right: 0.75rem;
+  }
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(6rem, 20vw, 14rem);
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--text-primary);
+    position: relative;
+    z-index: 1;
+  }
+  h1 .accent { color: var(--amber); }
+  p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    margin: 1.5rem 0 2.5rem;
+    position: relative;
+    z-index: 1;
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--amber);
+    color: #0a0a08;
+    transition: all 0.2s ease;
+    position: relative;
+    z-index: 1;
+  }
+  a:hover { background: #f0a030; transform: translateY(-1px); }
+</style>
+</head>
+<body>
+  <p class="code">Error 404</p>
+  <h1>Not<br><span class="accent">Found</span></h1>
+  <p>La página que buscas no existe en este servidor. (Boludín)</p>
+  <a href="https://bringfeel.com.ar">Volver al inicio</a>
+</body>
 </html>
